@@ -4,7 +4,7 @@ sudo apt update
 sudo apt upgrade -y
 ```
 
-## Mosquitto
+## Mosquitto (Server/Broker)
 ```
 sudo apt install -y mosquitto mosquitto-clients
 ```
@@ -20,3 +20,8 @@ sudo systemctl start mosquitto
 git config --global user.name "0xA user"
 git config --global user.email "user@0xA.at"
 ```
+
+# client venv
+Go to home and execute:
+source client_mqtt/bin/activate
+
