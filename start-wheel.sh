@@ -1,16 +1,37 @@
 #!/bin/bash
 
-export PROJECT_DIR=/home/pi/embedded-2024
-cd $PROJECT_DIR
+# Load environment variables from .env file
+export $(grep -v '^#' /home/pi/embedded-2024/.env | xargs)
 
-# Start MQTT broker service
-mosquitto -c mosquitto.conf
-pid=$!
-sleep 5
-echo "MQTT broker started with PID: $pid"
+# optional script flag to kill mosquitto
 
-# Start the wheel service
-python python_script.py &
-python_pid=$!
-echo "Wheel service started with PID: $python_pid"
+# kill flag
+if [ "$1" == "--kill" ]; then
+    echo "Kill mosquitto"
+    pkill -f "mosquitto -c $PROJECT_DIR/$CONFIG_FILE"
+    exit 0
+fi
 
+
+# Start mosquitto flag
+if [ "$1" == "--start" ]; then
+    echo "Starting mosquitto"
+    mosquitto -c $PROJECT_DIR/$CONFIG_FILE >> $LOG_FILE 2>&1 &
+    
+    if [ $? -ne 0 ]; then
+      echo "Failed to start mosquitto"
+    fi
+    exit 0
+fi
+
+
+
+
+sleep 1
+
+# run python flag
+if [ "$1" == "--run" ]; then
+    echo "Run python program"
+    python $PYTHON_WHEEL
+    exit 0
+fi

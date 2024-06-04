@@ -1,0 +1,72 @@
+1717509750: mosquitto version 2.0.11 starting
+1717509750: Config loaded from /home/pi/embedded-2024/my_conf.conf.
+1717509750: Opening ipv4 listen socket on port 8080.
+1717509750: Opening ipv6 listen socket on port 8080.
+1717509750: mosquitto version 2.0.11 running
+1717510042: mosquitto version 2.0.11 terminating
+1717510043: mosquitto version 2.0.11 starting
+1717510043: Config loaded from /home/pi/embedded-2024/my_conf.conf.
+1717510043: Opening ipv4 listen socket on port 8080.
+1717510043: Opening ipv6 listen socket on port 8080.
+1717510043: mosquitto version 2.0.11 running
+1717510115: mosquitto version 2.0.11 terminating
+1717510116: mosquitto version 2.0.11 starting
+1717510116: Config loaded from /home/pi/embedded-2024/my_conf.conf.
+1717510116: Opening ipv4 listen socket on port 8080.
+1717510116: Opening ipv6 listen socket on port 8080.
+1717510116: mosquitto version 2.0.11 running
+1717510125: mosquitto version 2.0.11 terminating
+1717510128: mosquitto version 2.0.11 starting
+1717510128: Config loaded from /home/pi/embedded-2024/my_conf.conf.
+1717510128: Opening ipv4 listen socket on port 8080.
+1717510128: Opening ipv6 listen socket on port 8080.
+1717510128: mosquitto version 2.0.11 running
+1717510132: mosquitto version 2.0.11 terminating
+1717510133: mosquitto version 2.0.11 starting
+1717510133: Config loaded from /home/pi/embedded-2024/my_conf.conf.
+1717510133: Opening ipv4 listen socket on port 8080.
+1717510133: Opening ipv6 listen socket on port 8080.
+1717510133: mosquitto version 2.0.11 running
+1717510154: mosquitto version 2.0.11 terminating
+1717510155: mosquitto version 2.0.11 starting
+1717510155: Config loaded from /home/pi/embedded-2024/my_conf.conf.
+1717510155: Opening ipv4 listen socket on port 8080.
+1717510155: Opening ipv6 listen socket on port 8080.
+1717510155: mosquitto version 2.0.11 running
+1717510159: mosquitto version 2.0.11 terminating
+1717510384: mosquitto version 2.0.11 starting
+1717510384: Config loaded from /home/pi/embedded-2024/my_conf.conf.
+1717510384: Opening ipv4 listen socket on port 8080.
+1717510384: Opening ipv6 listen socket on port 8080.
+1717510384: mosquitto version 2.0.11 running
+1717510388: mosquitto version 2.0.11 starting
+1717510388: Config loaded from /home/pi/embedded-2024/my_conf.conf.
+1717510388: Opening ipv4 listen socket on port 8080.
+1717510388: Error: Address already in use
+1717511350: mosquitto version 2.0.11 starting
+1717511350: Config loaded from /home/pi/embedded-2024/my_conf.conf.
+1717511350: Opening ipv4 listen socket on port 8080.
+1717511350: Error: Address already in use
+1717511386: New connection from 100.80.26.99:38143 on port 8080.
+1717511386: New client connected from 100.80.26.99:38143 as auto-B80124C1-E677-0DD9-DA5D-A6B843D4A175 (p2, c1, k60).
+1717511440: Client auto-B80124C1-E677-0DD9-DA5D-A6B843D4A175 closed its connection.
+1717511618: mosquitto version 2.0.11 terminating
+1717511622: mosquitto version 2.0.11 starting
+1717511622: Config loaded from /home/pi/embedded-2024/my_conf.conf.
+1717511622: Opening ipv4 listen socket on port 8080.
+1717511622: Opening ipv6 listen socket on port 8080.
+1717511622: mosquitto version 2.0.11 running
+1717511636: mosquitto version 2.0.11 starting
+1717511636: Config loaded from /home/pi/embedded-2024/my_conf.conf.
+1717511636: Opening ipv4 listen socket on port 8080.
+1717511636: Error: Address already in use
+1717511658: mosquitto version 2.0.11 starting
+1717511658: Config loaded from /home/pi/embedded-2024/my_conf.conf.
+1717511658: Opening ipv4 listen socket on port 8080.
+1717511658: Error: Address already in use
+1717512252: New connection from 127.0.0.1:40269 on port 8080.
+1717512252: New client connected from 127.0.0.1:40269 as auto-E244F4F2-0367-466F-F491-3FF7E0D99E83 (p2, c1, k60).
+1717512348: Client auto-E244F4F2-0367-466F-F491-3FF7E0D99E83 has exceeded timeout, disconnecting.
+1717512448: New connection from 100.80.26.99:37257 on port 8080.
+1717512448: New client connected from 100.80.26.99:37257 as auto-68250E12-3B8D-E275-4B1D-9E9835CA6DA9 (p2, c1, k60).
+1717512493: Client auto-68250E12-3B8D-E275-4B1D-9E9835CA6DA9 closed its connection.
