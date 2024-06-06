@@ -3,7 +3,12 @@
 # Load environment variables from .env file
 export $(grep -v '^#' /home/pi/embedded-2024/.env | xargs)
 
-# optional script flag to kill mosquitto
+
+# no flag
+if [ -z "$1" ]; then
+    echo "No flag provided"
+    exit 1
+fi
 
 # kill flag
 if [ "$1" == "--kill" ]; then
@@ -23,9 +28,6 @@ if [ "$1" == "--start" ]; then
     fi
     exit 0
 fi
-
-
-
 
 sleep 1
 
