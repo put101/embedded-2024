@@ -83,17 +83,17 @@ while True:
 
                 print(f"Significant speed change detected: {speed_change*100:.2f}%")
                 print(f"Acceleration magnitude at time of detection: {current_acceleration:.2f} m/s²")
-                client.publish("sensor-data/speed-change", f"Change: {speed_change*100:.2f}%, Accel: {current_acceleration:.2f} m/s²")
+                client.publish(topic, f"Change: {speed_change*100:.2f}%, Accel: {current_acceleration:.2f} m/s²")
                 
-                client.publish("sensor-data/speed", f"speed_m_s: {speed_m_s:.2f} m/s")
+                client.publish(topic, f"speed_m_s: {speed_m_s:.2f} m/s")
 
                 if current_acceleration > 1.5:
                     print("Bike movement detected")
-                    client.publish("sensor-data/movement", smart_city.Messages.MOVEMENT_DETECTED)
+                    client.publish(topic, smart_city.Messages.MOVEMENT_DETECTED)
                     last_bike_movement = pd.Timestamp.now()
                 else:
                     print("No bike movement detected: cheater!")
-                    client.publish("sensor-data/movement", smart_city.Messages.CHEAT_DETECTED)
+                    client.publish(topic, smart_city.Messages.CHEAT_DETECTED)
 
         last_rotation_time = rotation_time
         distance += wheel_circumference
@@ -108,7 +108,7 @@ while True:
     if temp_distance >= reward_distance:
         rewards += reward_points
         print("Sending update. Total distance: {:.2f} meters".format(distance))
-        client.publish(os.getenv('TOPIC'), payload=smart_city.Messages.REWARD(reward_points))
+        client.publish(topic, payload=smart_city.Messages.REWARD(reward_points))
         temp_distance -= reward_distance  # Reset session distance
 
 
