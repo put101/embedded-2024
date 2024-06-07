@@ -3,9 +3,8 @@
 # - [] play sound based on MQTT messages
 
 import paho.mqtt.client as mqtt
-import numpy as np
+# import numpy as np
 import RPi.GPIO as GPIO
-from gpiozero import LED 
 from time import sleep 
 import smart_city
 
@@ -24,10 +23,12 @@ def on_connect(client, userdata, flags, rc):
     client.subscribe(topic)
 
 def on_message(client, userdata, msg):
-    print(f"Message received: {msg.payload.decode()} on topic {msg.topic}")
-    if msg.payload.decode().equals(smart_city.Messages.CHEAT_DETECTED):
+    message = msg.payload.decode()
+    print(f"Message received: {message} on topic {msg.topic}")
+    
+    if message == smart_city.Messages.CHEAT_DETECTED:
         cheating()
-    elif "reward" in msg.payload.decode():
+    elif "reward" in message:
         turn_on_light()
 
 def turn_on_light():
