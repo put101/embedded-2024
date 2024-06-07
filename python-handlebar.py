@@ -3,9 +3,11 @@
 # - [] play sound based on MQTT messages
 
 import paho.mqtt.client as mqtt
-import numpy as np
+# import numpy as np
 import RPi.GPIO as GPIO
 from time import sleep 
+import smart_city
+
 
 # Define the MQTT broker details
 broker = "rasp-wheel"  # Replace with the IP address of your MQTT broker (server Raspberry Pi)
@@ -13,7 +15,7 @@ port = 8080           # Default MQTT port
 topic = "smartbike"  # Replace with the topic you are subscribing to
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(21, GPIO.OUT)
-GPIO.output(21, False)
+GPIO.output(21, GPIO.LOW)
 
 # Define the callback functions
 def on_connect(client, userdata, flags, rc):
@@ -21,13 +23,26 @@ def on_connect(client, userdata, flags, rc):
     client.subscribe(topic)
 
 def on_message(client, userdata, msg):
-    print(f"Message received: {msg.payload.decode()} on topic {msg.topic}")
-    turn_on_light()
+    message = msg.payload.decode()
+    print(f"Message received: {message} on topic {msg.topic}")
+    
+    if message == smart_city.Messages.CHEAT_DETECTED:
+        cheating()
+    elif "reward" in message:
+        turn_on_light()
 
 def turn_on_light():
-    GPIO.output(21, True)
+    GPIO.output(21, GPIO.HIGH)
     sleep(1)
-    GPIO.output(21, False)
+    GPIO.output(21, GPIO.LOW)
+
+def cheating():
+    for x in range(8):
+        GPIO.output(21, GPIO.HIGH)
+        sleep(.2)
+        GPIO.output(21, GPIO.LOW)
+        sleep(.2)
+
     
 turn_on_light()
 
