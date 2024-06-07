@@ -70,3 +70,94 @@
 1717512448: New connection from 100.80.26.99:37257 on port 8080.
 1717512448: New client connected from 100.80.26.99:37257 as auto-68250E12-3B8D-E275-4B1D-9E9835CA6DA9 (p2, c1, k60).
 1717512493: Client auto-68250E12-3B8D-E275-4B1D-9E9835CA6DA9 closed its connection.
+1717692036: mosquitto version 2.0.11 starting
+1717692036: Config loaded from /home/pi/embedded-2024/my_conf.conf.
+1717692036: Opening ipv4 listen socket on port 8080.
+1717692036: Opening ipv6 listen socket on port 8080.
+1717692036: mosquitto version 2.0.11 running
+1717692044: mosquitto version 2.0.11 starting
+1717692044: Config loaded from /home/pi/embedded-2024/my_conf.conf.
+1717692044: Opening ipv4 listen socket on port 8080.
+1717692044: Error: Address already in use
+1717692048: New connection from 127.0.0.1:58439 on port 8080.
+1717692048: New client connected from 127.0.0.1:58439 as auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (p2, c1, k60).
+1717692048: No will message specified.
+1717692048: Sending CONNACK to auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (0, 0)
+1717692053: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (35 bytes))
+1717692053: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (19 bytes))
+1717692053: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (14 bytes))
+1717692060: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (33 bytes))
+1717692060: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (19 bytes))
+1717692060: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (14 bytes))
+1717692061: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (33 bytes))
+1717692061: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (19 bytes))
+1717692061: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (14 bytes))
+1717692061: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (33 bytes))
+1717692061: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (19 bytes))
+1717692061: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (14 bytes))
+1717692062: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (34 bytes))
+1717692062: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (19 bytes))
+1717692062: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (14 bytes))
+1717692062: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (33 bytes))
+1717692062: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (19 bytes))
+1717692062: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (14 bytes))
+1717692064: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (34 bytes))
+1717692064: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (19 bytes))
+1717692064: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (14 bytes))
+1717692065: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (33 bytes))
+1717692065: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (19 bytes))
+1717692065: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (14 bytes))
+1717692066: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (33 bytes))
+1717692066: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (19 bytes))
+1717692066: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (14 bytes))
+1717692071: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (35 bytes))
+1717692071: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (19 bytes))
+1717692071: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (14 bytes))
+1717692071: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (33 bytes))
+1717692071: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (19 bytes))
+1717692071: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (14 bytes))
+1717692073: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (34 bytes))
+1717692073: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (19 bytes))
+1717692073: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (14 bytes))
+1717692079: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (34 bytes))
+1717692079: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (19 bytes))
+1717692079: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (14 bytes))
+1717692082: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (33 bytes))
+1717692082: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (19 bytes))
+1717692082: Received PUBLISH from auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 (d0, q0, r0, m0, 'smartbike', ... (14 bytes))
+1717692173: Client auto-8A5DDF3B-104A-ABCD-2B23-EF4B1EA97057 has exceeded timeout, disconnecting.
+1717761521: mosquitto version 2.0.11 starting
+1717761521: Config loaded from /home/pi/embedded-2024/my_conf.conf.
+1717761521: Opening ipv4 listen socket on port 8080.
+1717761521: Opening ipv6 listen socket on port 8080.
+1717761521: mosquitto version 2.0.11 running
+1717761535: New connection from 127.0.0.1:34547 on port 8080.
+1717761535: New client connected from 127.0.0.1:34547 as auto-BC137180-B2EF-68C0-D516-3AFBC0A654A6 (p2, c1, k60).
+1717761535: No will message specified.
+1717761535: Sending CONNACK to auto-BC137180-B2EF-68C0-D516-3AFBC0A654A6 (0, 0)
+1717761629: Client auto-BC137180-B2EF-68C0-D516-3AFBC0A654A6 has exceeded timeout, disconnecting.
+1717761899: New connection from 127.0.0.1:50021 on port 8080.
+1717761899: New client connected from 127.0.0.1:50021 as auto-C5E93BC4-236B-6C20-C640-D1A74E3200A3 (p2, c1, k60).
+1717761899: No will message specified.
+1717761899: Sending CONNACK to auto-C5E93BC4-236B-6C20-C640-D1A74E3200A3 (0, 0)
+1717761909: Received PUBLISH from auto-C5E93BC4-236B-6C20-C640-D1A74E3200A3 (d0, q0, r0, m0, 'smartbike', ... (33 bytes))
+1717761909: Received PUBLISH from auto-C5E93BC4-236B-6C20-C640-D1A74E3200A3 (d0, q0, r0, m0, 'smartbike', ... (19 bytes))
+1717761909: Received PUBLISH from auto-C5E93BC4-236B-6C20-C640-D1A74E3200A3 (d0, q0, r0, m0, 'smartbike', ... (14 bytes))
+1717762001: Client auto-C5E93BC4-236B-6C20-C640-D1A74E3200A3 has exceeded timeout, disconnecting.
+1717762183: New connection from 127.0.0.1:51485 on port 8080.
+1717762183: New client connected from 127.0.0.1:51485 as auto-528999A9-7D50-9FF8-68AE-8A1DEAC5969A (p2, c1, k60).
+1717762183: No will message specified.
+1717762183: Sending CONNACK to auto-528999A9-7D50-9FF8-68AE-8A1DEAC5969A (0, 0)
+1717762190: Received PUBLISH from auto-528999A9-7D50-9FF8-68AE-8A1DEAC5969A (d0, q0, r0, m0, 'smartbike', ... (33 bytes))
+1717762190: Received PUBLISH from auto-528999A9-7D50-9FF8-68AE-8A1DEAC5969A (d0, q0, r0, m0, 'smartbike', ... (19 bytes))
+1717762190: Received PUBLISH from auto-528999A9-7D50-9FF8-68AE-8A1DEAC5969A (d0, q0, r0, m0, 'smartbike', ... (14 bytes))
+1717762209: Received PUBLISH from auto-528999A9-7D50-9FF8-68AE-8A1DEAC5969A (d0, q0, r0, m0, 'smartbike', ... (33 bytes))
+1717762209: Received PUBLISH from auto-528999A9-7D50-9FF8-68AE-8A1DEAC5969A (d0, q0, r0, m0, 'smartbike', ... (19 bytes))
+1717762209: Received PUBLISH from auto-528999A9-7D50-9FF8-68AE-8A1DEAC5969A (d0, q0, r0, m0, 'smartbike', ... (14 bytes))
+1717762211: Received PUBLISH from auto-528999A9-7D50-9FF8-68AE-8A1DEAC5969A (d0, q0, r0, m0, 'smartbike', ... (33 bytes))
+1717762211: Received PUBLISH from auto-528999A9-7D50-9FF8-68AE-8A1DEAC5969A (d0, q0, r0, m0, 'smartbike', ... (19 bytes))
+1717762211: Received PUBLISH from auto-528999A9-7D50-9FF8-68AE-8A1DEAC5969A (d0, q0, r0, m0, 'smartbike', ... (14 bytes))
+1717762223: Received PUBLISH from auto-528999A9-7D50-9FF8-68AE-8A1DEAC5969A (d0, q0, r0, m0, 'smartbike', ... (34 bytes))
+1717762223: Received PUBLISH from auto-528999A9-7D50-9FF8-68AE-8A1DEAC5969A (d0, q0, r0, m0, 'smartbike', ... (19 bytes))
+1717762223: Received PUBLISH from auto-528999A9-7D50-9FF8-68AE-8A1DEAC5969A (d0, q0, r0, m0, 'smartbike', ... (14 bytes))
+1717762319: Client auto-528999A9-7D50-9FF8-68AE-8A1DEAC5969A has exceeded timeout, disconnecting.

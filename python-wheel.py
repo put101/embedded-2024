@@ -17,7 +17,7 @@ dotenv.load_dotenv('.env')
 url = os.getenv('MQTT_URL')
 topic = os.getenv('TOPIC')
 
-magnet_threshold = 75
+magnet_threshold = 85
 wheel_circumference = 0.5 # meters
 reward_distance = 5 # 5 for testing
 reward_points = 1
@@ -28,6 +28,8 @@ temp_distance = 0.0 #used for calculating the rewards
 total_distance = 0
 
 last_bike_movement: pd.Timestamp = pd.Timestamp(0)
+last_detection_time = time.time()
+last_rotation_time = 0.0
 
 sense = SenseHat()
 
