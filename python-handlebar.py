@@ -5,7 +5,6 @@
 import paho.mqtt.client as mqtt
 import numpy as np
 import RPi.GPIO as GPIO
-from gpiozero import LED 
 from time import sleep 
 
 # Define the MQTT broker details
