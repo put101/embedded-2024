@@ -30,6 +30,7 @@ total_distance = 0
 last_bike_movement: pd.Timestamp = pd.Timestamp(0)
 last_detection_time = time.time()
 last_rotation_time = 0.0
+last_cheated = False
 
 sense = SenseHat()
 
@@ -90,12 +91,15 @@ while True:
                 client.publish(topic, f"speed_m_s: {speed_m_s:.2f} m/s")
 
                 if current_acceleration > 1.5:
+                    last_cheated = False
                     print("Bike movement detected")
                     client.publish(topic, smart_city.Messages.MOVEMENT_DETECTED)
                     last_bike_movement = pd.Timestamp.now()
                 else:
-                    print("No bike movement detected: cheater!")
-                    client.publish(topic, smart_city.Messages.CHEAT_DETECTED)
+                    if not last_cheated:
+                        print("No bike movement detected: cheater!")
+                        client.publish(topic, smart_city.Messages.CHEAT_DETECTED)
+                        last_cheated = True
 
         last_rotation_time = rotation_time
         distance += wheel_circumference
